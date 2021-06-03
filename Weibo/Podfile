@@ -1,0 +1,12 @@
+platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'Weibo-OC' do
+
+  use_frameworks!
+	
+pod 'AFNetworking'
+pod 'Masonry'
+pod 'SDWebImage'
+
+end
